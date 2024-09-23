@@ -1,0 +1,48 @@
+body{
+    background-image: url("solarsystem.jpeg");
+    background-size: cover;
+    color:yellow;
+    height: auto;
+}
+#login{
+    height: 600px;
+    width: 300px ;
+    border: 2px solid rgb(209, 186, 186);
+    margin: 50px auto;
+    padding-left: 25px;
+    padding-top: 15px;
+    /* background-image: url("kamal.jpg");
+    background-size: cover; */
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background-color: transparent;
+}
+
+#button{
+    border-radius: 5px;
+    color: yellow;
+    background-color: red;
+    margin-left: 60%;
+}
+
+h2{
+    background-color: aliceblue;
+    color: teal;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+@media(min-width:200px)and(max-width:300px){
+    div{
+        height: 200px auto;
+        width: 200 auto;
+        margin: 100px auto;
+        background-color: yellowgreen;
+    }
+}
+
+a{
+    margin-left: 55px;
+    color: white;
+}
